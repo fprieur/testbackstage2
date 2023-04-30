@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-service
+  description: This is a first test with backstage catalog service 
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: github-service
+  tags:
+    - go
+  links:
+    - url: https://admin.example-org.com
+      title: Grafana dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: online-fred
+  lifecycle: production
+  owner: some-team
+  system: internal-website
