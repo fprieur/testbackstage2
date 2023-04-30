@@ -7,6 +7,7 @@ metadata:
     example.com/custom: custom_label_value
   annotations:
     example.com/service-discovery: github-service
+    backstage.io/techdocs-ref: value
   tags:
     - go
   links:
